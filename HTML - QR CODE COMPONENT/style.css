@@ -1,0 +1,25 @@
+body {
+    font-size: 15px;
+    background-color: rgb(190, 190, 190);
+}
+
+.alto-100 {
+    height: 100vh;
+}
+
+.card {
+    max-width: 300px;
+    transition: all 300ms;
+}
+.card img {
+    max-width: 250px;
+}
+.card img:hover {
+    opacity: 0.75;
+}
+.card, .card img {
+    border-radius: 5px;
+}
+.card p {
+    font-weight: 500;
+}
