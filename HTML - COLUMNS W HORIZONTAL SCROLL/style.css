@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e2f4fd;
+}
+
+.app {
+  background: #fff;
+  overflow-y: scroll;
+  width: 30%;
+  height: 80%;
+  padding: 20px;
+  display: grid;
+  grid-row-gap: 20px;
+}
+.app > .horizontal {
+  display: grid;
+  grid-gap: calc(20px / 2);
+  grid-template-columns: repeat(5, 40%);
+  overflow-x: scroll;
+  height: 15vh;
+}
+
+.green {
+  background: #66c5af;
+  height: 20vh;
+}
+
+.blue {
+  background: #49afdd;
+}
+
+.block {
+  border-radius: 5px;
+}
